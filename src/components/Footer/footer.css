@@ -1,0 +1,19 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    padding: 10px 10px 10px 10px; 
+    height: 77px;
+    background-color: rgb(235, 240, 243);
+  }
+.footer .footer-block {
+    margin: 20px 0;
+  }
+.material-icons{
+  font-size:50px;
+  display: flex;
+  justify-content: center;
+}
+i{
+  margin-right: 10px;
+}
