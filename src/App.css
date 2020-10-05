@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.content-area {
+  overflow: scroll;
+  height: calc(100vh - 154px);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

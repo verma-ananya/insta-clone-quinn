@@ -1,19 +1,22 @@
 .footer {
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    padding: 10px 10px 10px 10px; 
-    height: 77px;
-    background-color: rgb(235, 240, 243);
-  }
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  padding: 10px 10px 10px 10px; 
+  height: 77px;
+  background-color: rgb(235, 240, 243);
+}
 .footer .footer-block {
-    margin: 20px 0;
-  }
+  margin: 20px 0;
+}
 .material-icons{
-  font-size:50px;
-  display: flex;
-  justify-content: center;
+font-size:50px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin: auto;
 }
 i{
-  margin-right: 10px;
+margin-right: 10px;
 }

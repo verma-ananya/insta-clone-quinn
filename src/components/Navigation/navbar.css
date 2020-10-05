@@ -1,42 +1,35 @@
-  @font-face{
-    font-family: 'sofia';
-    src: url(fonts/sofia-regular.otf);
-    font-style: normal;
-    font-weight: bold;
-  }
-  
-  .Nav {
-    background-color: rgb(235, 240, 243);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-    -webkit-transition: height 0.2s ease-in-out;
-    transition: height 0.2s ease-in-out;
-    height: 77px;
-  }
-  .Nav-menus {
-    height: 77px;
-    width: 70%;
-    /* margin: 0 auto; */
-    padding-top: 26px;
-    padding-bottom:  26px;
-  }
-  .Nav-brand-logo a:hover, a:visited, a:link, a:active{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    font-size: x-large;
-    color: black;
-    height: 135px;
-    width: 176px;
-    /* text-indent: 50%; */
-    font-family: sofia;
-  }
+@font-face{
+  font-family: 'sofia';
+  src: url(fonts/sofia-regular.otf);
+  font-style: normal;
+  font-weight: bold;
+}
 
-  /* @media only screen and (min-width: 768){
-    .Nav-brand-logo{
-      padding-left: auto;
-    }
-  } */
+.Nav {
+  background-color: rgb(235, 240, 243);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+  height: 77px;
+}
+.Nav-menus {
+  height: 77px;
+  width: 70%;
+  padding-top: 26px;
+  padding-bottom:  26px;
+}
+.Nav-brand-logo a:hover, a:visited, a:link, a:active{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: x-large;
+  color: black;
+  height: 40px;
+  font-family: sofia;
+  float: left;
+  margin-left: 22%;
+}
