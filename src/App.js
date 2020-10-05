@@ -30,7 +30,7 @@ function App() {
       <AnimatePresence>
         <Switch>
           <Route
-            path="/calendar"
+            path= {process.env.PUBLIC_URL + "/calendar"}
           >
             <motion.div className="calendar"
               initial="initial"
@@ -39,16 +39,15 @@ function App() {
               variants={pageVariants}
             >
               <NavBar/>
-              <motion.div className="content-area"
-              >
+              <div className="content-area">
                 <ImageCalendar/>
-              </motion.div>
+              </div>
               <Footer/>
             </motion.div>
           </Route>
 
           <Route
-            path="/"
+            path={process.env.PUBLIC_URL + "/"}
           >
             <motion.div className="home"
               initial="initial"
@@ -57,10 +56,9 @@ function App() {
               variants={pageVariants}
             >
               <NavBar/>
-                <motion.div className="content-area"
-                >
+                <div className="content-area">
                   <Home />
-                </motion.div>
+                </div>
               <Footer/>
             </motion.div>
           </Route>

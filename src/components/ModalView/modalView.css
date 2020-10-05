@@ -1,34 +1,37 @@
 .material-icons.md-20 {
-    font-size: 20px;
-    float: right;
-    margin-right: 30px;
-    margin-top: 15px;
-    font-weight: bold;
-  }
-  
-  .material-icons.arrow {
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    color: grey;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-  }
-  
-  .pad-0 {
-    padding: 0;
-  }
-  
-  .pad-4 {
-    padding: 4px;
-  }
-  
-  .modal-row {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    position: relative;
-  }
-  
+  font-size: 20px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.material-icons.arrow {
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: grey;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+
+.pad-0 {
+  padding: 0;
+}
+
+.pad-4 {
+  padding: 4px;
+}
+
+.modal-row {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}

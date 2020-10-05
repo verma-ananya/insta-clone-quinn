@@ -9,12 +9,12 @@ class Footer extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="home col-6">
-                            <Link to="/">
+                            <Link to={process.env.PUBLIC_URL + "/"}>
                                 <i className="material-icons">home</i>
                             </Link>
                         </div>
                         <div className="calendar col-6">
-                            <Link to="/calendar">
+                            <Link to={process.env.PUBLIC_URL + "/calendar"}>
                                 <i className="material-icons">date_range</i>         
                             </Link>                   
                         </div>

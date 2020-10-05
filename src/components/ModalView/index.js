@@ -19,6 +19,8 @@ class ModalView extends Component {
         size,
         onNext,
         onPrevious,
+        showNextArrow,
+        showPreviousArrow
       } = this.props;
       
       return (
@@ -35,13 +37,27 @@ class ModalView extends Component {
             <div className="container-fluid pad-0">
               <div className="row pad-0 modal-row">
                 <div className="pad-0 col-1">
-                  <Link> <i className="material-icons arrow" onClick={onPrevious}> navigate_before </i> </Link>
+                  <Link> 
+                    <i 
+                      className={"material-icons arrow" + (showPreviousArrow ? "" : " hidden")} 
+                      onClick={onPrevious}
+                    > 
+                      navigate_before 
+                    </i> 
+                  </Link>
                 </div>
                 <div className="pad-4 col-10">
                   {children}
                 </div>
                 <div className="pad-0 col-1">
-                  <Link> <i className="material-icons arrow" onClick={onNext}> navigate_next </i> </Link>
+                  <Link> 
+                    <i 
+                      className={"material-icons arrow" + (showNextArrow ? "" : " hidden")} 
+                      onClick={onNext}
+                    > 
+                      navigate_next 
+                    </i> 
+                  </Link>
                 </div>
               </div>
             </div>

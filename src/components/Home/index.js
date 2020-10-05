@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./home.css";
 import Post from '../Post/index';
 import request from '../../utils/request.js';
 import { formatDate, postSortCompare } from '../../utils/utils';
@@ -11,6 +12,7 @@ class Home extends Component {
     super(props);
     this.state = {
       posts: [],
+      apiError: false,
     };
   }
 
@@ -29,8 +31,9 @@ class Home extends Component {
         });
       })
       .catch(error => {
-        alert("API call failed!");
-        console.log(error);
+        this.setState({
+          apiError: true,
+        });
       });
   }
 
@@ -50,8 +53,14 @@ class Home extends Component {
   }
 
   render() { 
+    const { apiError } = this.state;
     return (
       <React.Fragment>
+        {apiError && 
+          <div className="box container">
+            <span className="message">Couldn't reach the servers!</span>
+          </div>
+        }
         {this.renderPosts()}
       </React.Fragment>
     );
