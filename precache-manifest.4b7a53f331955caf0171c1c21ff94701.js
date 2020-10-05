@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb865509517f1583acdcb2961ca7ad0f",
+    "revision": "13f9f8858d740539a0518e8323f5007a",
     "url": "/insta-clone-quinn/index.html"
   },
   {
-    "revision": "6f2ca42b46b6fa62471e",
+    "revision": "f6d61ff1b41daa0115ac",
     "url": "/insta-clone-quinn/static/css/2.d0eaa8fd.chunk.css"
   },
   {
-    "revision": "67d6857002c6b729d17d",
-    "url": "/insta-clone-quinn/static/css/main.53f700d1.chunk.css"
+    "revision": "5863c02304f4dab5e2a0",
+    "url": "/insta-clone-quinn/static/css/main.82a7e303.chunk.css"
   },
   {
-    "revision": "6f2ca42b46b6fa62471e",
-    "url": "/insta-clone-quinn/static/js/2.0efa720d.chunk.js"
+    "revision": "f6d61ff1b41daa0115ac",
+    "url": "/insta-clone-quinn/static/js/2.cab6c5d5.chunk.js"
   },
   {
     "revision": "f08e720869e7a847549fb58c8267edec",
-    "url": "/insta-clone-quinn/static/js/2.0efa720d.chunk.js.LICENSE.txt"
+    "url": "/insta-clone-quinn/static/js/2.cab6c5d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "67d6857002c6b729d17d",
-    "url": "/insta-clone-quinn/static/js/main.87f722fa.chunk.js"
+    "revision": "5863c02304f4dab5e2a0",
+    "url": "/insta-clone-quinn/static/js/main.30c9a88a.chunk.js"
   },
   {
     "revision": "974432c5dcd415402882",

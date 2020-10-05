@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/insta-clone-quinn/static/css/main.53f700d1.chunk.css",
-    "main.js": "/insta-clone-quinn/static/js/main.87f722fa.chunk.js",
-    "main.js.map": "/insta-clone-quinn/static/js/main.87f722fa.chunk.js.map",
+    "main.css": "/insta-clone-quinn/static/css/main.82a7e303.chunk.css",
+    "main.js": "/insta-clone-quinn/static/js/main.30c9a88a.chunk.js",
+    "main.js.map": "/insta-clone-quinn/static/js/main.30c9a88a.chunk.js.map",
     "runtime-main.js": "/insta-clone-quinn/static/js/runtime-main.b98c3afe.js",
     "runtime-main.js.map": "/insta-clone-quinn/static/js/runtime-main.b98c3afe.js.map",
     "static/css/2.d0eaa8fd.chunk.css": "/insta-clone-quinn/static/css/2.d0eaa8fd.chunk.css",
-    "static/js/2.0efa720d.chunk.js": "/insta-clone-quinn/static/js/2.0efa720d.chunk.js",
-    "static/js/2.0efa720d.chunk.js.map": "/insta-clone-quinn/static/js/2.0efa720d.chunk.js.map",
+    "static/js/2.cab6c5d5.chunk.js": "/insta-clone-quinn/static/js/2.cab6c5d5.chunk.js",
+    "static/js/2.cab6c5d5.chunk.js.map": "/insta-clone-quinn/static/js/2.cab6c5d5.chunk.js.map",
     "index.html": "/insta-clone-quinn/index.html",
-    "precache-manifest.afd10a63742b304139fe5e5d3a44e353.js": "/insta-clone-quinn/precache-manifest.afd10a63742b304139fe5e5d3a44e353.js",
+    "precache-manifest.4b7a53f331955caf0171c1c21ff94701.js": "/insta-clone-quinn/precache-manifest.4b7a53f331955caf0171c1c21ff94701.js",
     "service-worker.js": "/insta-clone-quinn/service-worker.js",
     "static/css/2.d0eaa8fd.chunk.css.map": "/insta-clone-quinn/static/css/2.d0eaa8fd.chunk.css.map",
-    "static/css/main.53f700d1.chunk.css.map": "/insta-clone-quinn/static/css/main.53f700d1.chunk.css.map",
-    "static/js/2.0efa720d.chunk.js.LICENSE.txt": "/insta-clone-quinn/static/js/2.0efa720d.chunk.js.LICENSE.txt",
+    "static/css/main.82a7e303.chunk.css.map": "/insta-clone-quinn/static/css/main.82a7e303.chunk.css.map",
+    "static/js/2.cab6c5d5.chunk.js.LICENSE.txt": "/insta-clone-quinn/static/js/2.cab6c5d5.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/insta-clone-quinn/static/media/logo.5d5d9eef.svg",
     "static/media/navbar.css": "/insta-clone-quinn/static/media/sofia-regular.f02fbd32.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.b98c3afe.js",
     "static/css/2.d0eaa8fd.chunk.css",
-    "static/js/2.0efa720d.chunk.js",
-    "static/css/main.53f700d1.chunk.css",
-    "static/js/main.87f722fa.chunk.js"
+    "static/js/2.cab6c5d5.chunk.js",
+    "static/css/main.82a7e303.chunk.css",
+    "static/js/main.30c9a88a.chunk.js"
   ]
 }
