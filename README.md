@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-### `clone the repositry`
+### `clone the repository`
 
 Use git clone [https://github.com/verma-ananya/insta-clone-quinn.git](https://github.com/verma-ananya/insta-clone-quinn.git)
 
